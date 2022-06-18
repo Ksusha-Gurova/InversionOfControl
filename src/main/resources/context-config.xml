@@ -12,13 +12,4 @@
     <context:annotation-config/>
     <context:component-scan base-package="ru.neoflex"/>
 
-
-
-<!--    <bean id="orderRepository" class="ru.neoflex.repository.impl.OrderRepositoryImpl">-->
-<!--    </bean>-->
-
-<!--    <bean id="orderService" class="ru.neoflex.service.impl.OrderServiceImpl" autowire="constructor">-->
-<!--        <property name="standardSum" value="${default.price}" />-->
-<!--    </bean>-->
-
 </beans>
